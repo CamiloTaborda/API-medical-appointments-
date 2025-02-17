@@ -1,0 +1,53 @@
+# Archivos de compilación de Python
+*.pyc
+*.pyo
+__pycache__
+
+# Entorno virtual
+env/
+venv/
+*.env
+*.venv
+
+# Archivos de configuración de Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+
+# Archivos de migraciones
+*/migrations/*
+
+# Archivos de bases de datos
+*.db
+*.sqlite3
+
+# Archivos de configuración de pruebas
+*.coverage
+nosetests.xml
+coverage.xml
+*.hypothesis/
+
+# Archivos de configuración de pytest
+.cache
+
+# Entorno de Docker (si usas Docker)
+.docker/
+docker-compose.override.yml
+
+# Archivos de configuración de IDEs (si usas PyCharm, VS Code, etc.)
+.vscode/
+.idea/
+
+# Archivos de configuración de Django
+*.log
+*.pot
+*.pyc
+*.pyo
+
+# Archivos temporales de Python
+*.bak
+*.swp
+*.swo
